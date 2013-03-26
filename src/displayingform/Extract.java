@@ -1,7 +1,4 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package displayingform;
 
 import java.io.BufferedWriter;
@@ -22,9 +19,7 @@ public class Extract {
         valextract = new String[fields.length];
         for (int i = 0; i < fields.length; i++) {
             valextract[i] = fields[i].getName().toString();
-    //       System.out.println(fields[i].getType().getName().toString()+ " "+fields[i].getName().toString());
-//String first = fields[i].getName().toString();
-
+   
         }
         
 
